@@ -1,0 +1,13 @@
+{
+    "display_name": "FortiGate-Section-NS",
+    "section_type": "L3REDIRECT",
+    "stateful": false,
+    "applied_tos" :[
+        {
+            "target_display_name": "Tier1-LR-1",
+            "is_valid": true,
+            "target_type": "LogicalRouter",
+            "target_id": "6eddee6f-0962-4993-bf2c-0bb0501bb923"
+        }
+    ]
+}

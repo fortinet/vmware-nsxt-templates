@@ -1,0 +1,56 @@
+{
+    "display_name": "FortiGate Service for Fortinet Partner T1",
+    "description": "FortiGate service is inserted at T1 router and it provides advanced security",
+    "attachment_point": [
+        "TIER1_LR"
+    ],
+    "functionalities": [
+        "NG_FW"
+    ],
+    "implementations": [
+        "EAST_WEST"
+    ],
+    "transports": [
+        "L2_BRIDGE"
+    ],
+    "vendor_id": "Fortinet",
+    "on_failure_policy": "BLOCK",
+    "service_deployment_spec": {
+    "deployment_specs": [{
+        "ovf_url": "http://192.168.110.10/FortiGate-VM64.nsxt.ovf",
+        "name": "FGT_Spec",
+        "host_type": "ESXI",
+        "service_form_factor": "MEDIUM"
+    }],
+    "nic_metadata_list": [
+    {
+        "interface_label": "eth",
+        "interface_index": 0,
+        "interface_type": "MANAGEMENT"
+    },
+    {
+        "interface_label": "eth",
+        "interface_index": 1,
+        "interface_type": "DATA1"
+    },
+    {
+        "interface_label": "eth",
+        "interface_index": 2,
+        "interface_type": "DATA2"
+    },
+    {
+        "interface_label": "eth",
+        "interface_index": 3,
+        "interface_type": "HA1"
+    }
+    ],
+    "deployment_template": [{
+        "name": "NS_DepTemp",
+        "attributes": [{
+            "attribute_type": "STRING",
+            "display_name": "License",
+            "key": "BYOL"
+        }]
+    }]
+  }
+}
