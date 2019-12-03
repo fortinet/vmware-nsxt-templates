@@ -1,8 +1,8 @@
 # VMWare NSX-T Templates
 
-This project contains the templates for deploying FortiGate on the VMWare NSX-T platform.
+This project contains templates for deploying FortiGate on the VMWare NSX-T 2.3 platform.
 For a full deployment guide, please see:
-  * [Deploying FortiGate on VMWare NSX-T](https://docs.fortinet.com/vm/vmware-nsx-t/fortigate/6.0/deploying-fortigate-on-vmware-nsx-t/6.0.4/90459/preparing-for-deployment)
+  * [Deploying FortiGate on VMWare NSX-T](https://docs.fortinet.com/vm/vmware-nsx-t/fortigate/6.0/about-fortigate-for-vmware-nsx-t/6.0.4/86953/overview)
 
 # Support
 
